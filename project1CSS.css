@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+
+.table {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+#listTitle {
+	font-size: 150%;
+	text-align: left;
+}
+
+
+#listContents {
+	margin: auto;
+	width: 100%;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#buttons {
+	magin: auto;
+	width: 100%;
+	border:2px solid black;
+	padding: 5px;	
+}
+
