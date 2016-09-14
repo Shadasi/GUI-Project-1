@@ -15,20 +15,23 @@
 	<div id="listTitle">Voting Graph</div>
 		
 	<div id="listContents">
-		<dl id="list">
-		</dl>
+		<ul id="list"></ul>		
 	</div>	
 	
 	<div id="buttons">
 		<form id="addForm">
- 		Add Person:  <input type="text" name="input">
- 		<input type="button" onclick="addperson()" value="Add">
+ 		Add Person: <br> <input type="text" name="input">
+ 		<input type="button" onclick="addperson()" value="Add"> <br>
  		</form>
- 		<input type="button" onclick="testStuff()" value = "Test">
+ 		<br>
+ 		<form id="deleteForm">
+ 		Delete Person: <br> <input type="text" name="input"> 		
+ 		<input type="button" onclick="deletePerson()" value = "Delete">
+ 		</form>
+ 		
  	</div>
 </div>
 
 </body>
-<script type="text/javascript" src="jquery-1.8.3.js"></script>
-<script src="project1JS.js"></script>
+<script type="text/javascript" src="project1JS.js"></script>
 </html>
